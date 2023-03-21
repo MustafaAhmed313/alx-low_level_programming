@@ -1,14 +1,20 @@
 #include "main.h"
 /**
- * _islower - return 0 if c is not lowercase, return one otherwise.
+ * _isalpha - return 0 if c is not alphabet, return 1 otherwise.
  *
  * @c: The character in ASCII code
  *
  * Return: always 0 (Success)
  */
-int _islower(int c)
+int _isalpha(int c);
 {
-	if (c <= 'z' && c >= 'a')
+	if ((c <= 'z' && c >= 'a') || (c <= 'Z' && c >= 'A'))
+	{
 		return (1);
-	return (0);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
 }
