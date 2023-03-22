@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * time_table - print time table.
+ * times_table - print time table.
  *
  * Return: always 0 (Success)
  */
@@ -14,7 +14,7 @@ void times_table(void)
 		_putchar(48);
 		for (mult = 1 ; mult <= 9 ; mult++)
 		{
-			_putchar('.');
+			_putchar(',');
 			_putchar(' ');
 			prod = num * mult;
 			if (prod <= 9)
