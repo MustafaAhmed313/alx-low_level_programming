@@ -21,7 +21,7 @@ void times_table(void)
 				_putchar(' ');
 			else
 				_putchar((prod / 10) + 48);
-			_putchar((prod % 10 + 48);
+			_putchar((prod % 10) + 48);
 		}
 		_putchar('\n');
 	}
