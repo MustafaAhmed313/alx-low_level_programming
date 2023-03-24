@@ -3,6 +3,8 @@
 /**
  * print_line - print consecutive sequence of '_'
  *
+ * @n: number of printing '_'
+ *
  * Return: void
 */
 
