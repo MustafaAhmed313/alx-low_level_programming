@@ -11,7 +11,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int sum = 0;
+	int sum;
 
 	while (*s1)
 	{
@@ -23,5 +23,5 @@ int _strcmp(char *s1, char *s2)
 		s1++;
 		s2++;
 	}
-	return (dest);
+	return (sum);
 }
