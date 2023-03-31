@@ -19,8 +19,10 @@ char *leet(char *c)
 	{
 		for (i = 0 ; i < sizeof(key) / sizeof(char) ; i++)
 		{
-			if (*c == kwy[i] || *c == key[i] + 32)
+			if (*c == key[i] || *c == key[i] + 32)
+			{
 				*c = 48 + value[i];
+			}
 		}
 		c++;
 	}
